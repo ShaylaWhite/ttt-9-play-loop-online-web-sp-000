@@ -38,9 +38,8 @@ end
 # Define your play method below
 
 def play (board)
- loop do 
-  
-  puts "Iteration #{counter} of the loop"
+loop do 
+  puts display_board(board)
   if counter >= 10 
     break
   end
